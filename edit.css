@@ -1,0 +1,511 @@
+#menu {
+  text-align:right;
+  font-family: 'Work Sans', sans-serif;
+  width: 100%;
+  font-size: 2.5rem;
+  color: black;
+}
+
+body{
+  margin:0;
+}
+
+@media only screen and (max-width:1150px) {
+  .block  {
+    font-size: 30px;
+    padding-right: 4%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.block{
+  color: white;
+  min-height: 20%;
+  padding-right: 8%;
+  line-height: 160px;
+}
+
+#block1 {
+  background-color:rgb(255,240,240);
+  color:black;
+}
+
+#block2 {
+  background-color:rgb(255,210,210);
+  font-size: 8rem;
+  text-align: center;
+  padding: 0;
+  height: 80%;
+}
+
+.slide{
+  min-height: 100%;
+  padding: 2rem;
+  text-align:right;
+  font-family: 'Work Sans', sans-serif;
+  width: 100%;
+  font-size: 3rem;
+}
+
+#slide1{
+  background-color: white;
+  color: black;
+}
+
+#slide2{
+  background-color: white;
+  color: black;
+}
+
+#contact{
+  background-color: black;
+  color: white;
+}
+
+.header{
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+.box{
+  max-width: 40rem;
+}
+
+.section{
+  padding: 1rem;
+}
+
+.mission{
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
+
+.section:hover{
+  font-weight: bold;
+}
+
+.text{
+  display: none;
+}
+
+form{
+  color: black;
+}
+
+.box1{
+  max-width: 40rem;
+}
+
+.socialmedia{
+  color:white;
+}
+
+.finePrint{
+  font-size: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: right;
+}
+
+.legal{
+  text-align: left;
+  padding-top: 3rem;
+}
+
+input{
+  max-width: 28rem;
+}
+
+textarea{
+  max-width: 28rem;
+}
+
+.text{
+  text-align: left;
+  font-size: 2.5rem;
+  font-family: Helvetica,sans-serif;
+}
+
+.para{
+  margin-top:2rem;
+  margin-bottom:2rem;
+}
+
+@media screen and (min-width: 440px) {
+    .box {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .box {
+        margin-left: 7rem;
+        margin-right: 7rem;
+        max-width: none;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .box {
+        margin-left: 9rem;
+        margin-right: 9rem;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .box {
+        margin-left: 9rem;
+        margin-right: 9rem;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .box {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .box {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .box {
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .box {
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+}
+
+@media screen and (min-width: 890px) {
+    .box {
+        margin-left: 13rem;
+        margin-right: 13rem;
+    }
+}
+
+@media screen and (min-width: 930px) {
+    .box {
+        margin-left: 14rem;
+        margin-right: 14rem;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .box {
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .box {
+        margin-left: 16rem;
+        margin-right: 16rem;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    .box {
+        margin-left: 17rem;
+        margin-right: 17rem;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .box {
+        margin-left: 18rem;
+        margin-right: 18rem;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .box {
+        margin-left: 19rem;
+        margin-right: 19rem;
+    }
+}
+@media screen and (min-width: 1160px) {
+    .box {
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .box {
+        margin-left: 21rem;
+        margin-right: 21rem;
+    }
+}
+@media screen and (min-width: 1240px) {
+    .box {
+        margin-left: 22rem;
+        margin-right: 22rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .box {
+        margin-left: 23rem;
+        margin-right: 23rem;
+    }
+}
+
+@media screen and (min-width: 1320px) {
+    .box {
+        margin-left: 24rem;
+        margin-right: 24rem;
+    }
+}
+
+@media screen and (min-width: 1360px) {
+    .box {
+        margin-left: 25rem;
+        margin-right: 25rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .box {
+        margin-left: 26rem;
+        margin-right: 26rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .box {
+        margin-left: 27rem;
+        margin-right: 27rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .box {
+        margin-left: 31rem;
+        margin-right: 31rem;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .box {
+        margin-left: 32rem;
+        margin-right: 32rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .box {
+        margin-left: 38rem;
+        margin-right: 38rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .box {
+        margin-left: 54rem;
+        margin-right: 54rem;
+    }
+}
+
+
+@media screen and (min-width: 440px) {
+    .box1 {
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .box1 {
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .box1 {
+        margin-left: 14rem;
+        margin-right: 14rem;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .box1 {
+        margin-left: 16rem;
+        margin-right: 16rem;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .box1 {
+        margin-left: 18rem;
+        margin-right: 18rem;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .box1 {
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .box1 {
+        margin-left: 22rem;
+        margin-right: 22rem;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .box1 {
+        margin-left: 24rem;
+        margin-right: 24rem;
+    }
+}
+
+@media screen and (min-width: 890px) {
+    .box1 {
+        margin-left: 26rem;
+        margin-right: 26rem;
+    }
+}
+
+@media screen and (min-width: 930px) {
+    .box1 {
+        margin-left: 28rem;
+        margin-right: 28rem;
+        max-width: 60rem;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .box1 {
+        margin-left: 30rem;
+        margin-right: 30rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .box1 {
+        margin-left: 32rem;
+        margin-right: 32rem;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    .box1 {
+        margin-left: 34rem;
+        margin-right: 34rem;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .box1 {
+        margin-left: 36rem;
+        margin-right: 36rem;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .box1 {
+        margin-left: 38rem;
+        margin-right: 38rem;
+    }
+}
+@media screen and (min-width: 1160px) {
+    .box1 {
+        margin-left: 40rem;
+        margin-right: 40rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .box1 {
+        margin-left: 42rem;
+        margin-right: 42rem;
+    }
+}
+@media screen and (min-width: 1240px) {
+    .box1 {
+        margin-left: 44rem;
+        margin-right: 44rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .box1 {
+        margin-left: 46rem;
+        margin-right: 46rem;
+    }
+}
+
+@media screen and (min-width: 1320px) {
+    .box1 {
+        margin-left: 48rem;
+        margin-right: 48rem;
+    }
+}
+
+@media screen and (min-width: 1360px) {
+    .box1 {
+        margin-left: 50rem;
+        margin-right: 50rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .box1 {
+        margin-left: 52rem;
+        margin-right: 52rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .box1 {
+        margin-left: 54rem;
+        margin-right: 54rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .box1 {
+        margin-left: 62rem;
+        margin-right: 62rem;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .box1 {
+        margin-left: 64rem;
+        margin-right: 64rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .box1 {
+        margin-left: 76rem;
+        margin-right: 76rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .box1 {
+        margin-left: 108rem;
+        margin-right: 108rem;
+    }
+}

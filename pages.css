@@ -1,0 +1,356 @@
+.accordion {
+    background-color:rgb(255,120,120);
+    color: white;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 1%;
+    cursor: pointer;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+  margin:0;
+}
+
+.panel {
+    display: none;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+
+#menu {
+  text-align: right;
+  font-size: 1.3em;
+  font-family: 'Raleway', sans-serif;
+}
+
+#block1 {
+  background-color:rgb(255,240,240);
+  color:black;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 1%;
+}
+
+#block2 {
+  background-color:rgb(255,210,210);
+  color:white;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 1%;
+}
+
+#block3 {
+  background-color:rgb(255,180,180);
+  color:white;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 1%;
+}
+
+#block4 {
+  background-color:rgb(255,150,150);
+  color:white;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 1%;
+}
+
+#block5 {
+  background-color:rgb(255,120,120);
+  color:white;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 1%;
+}
+
+#block6 {
+  background-color:rgb(255,90,90);
+  color:white;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 1%;
+}
+
+#block7 {
+  background-color:rgb(255,60,60);
+  color:white;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 1%;
+}
+
+#block8 {
+  background-color:rgb(255,30,30);
+  color:white;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 2%;
+}
+
+.fade1 {
+    -webkit-animation: 0.3s ease 0s normal forwards 1 fadein;
+    animation: 0.3s ease 0s normal forwards 1 fadein;
+}
+@keyframes fadein{
+    0% { opacity:0; }
+    25% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    25% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.fade2 {
+    -webkit-animation: 0.6s ease 0s normal forwards 1 fadein;
+    animation: 0.6s ease 0s normal forwards 1 fadein;
+}
+@keyframes fadein{
+    0% { opacity:0; }
+    33.3% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    33.3% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.fade3 {
+    -webkit-animation: 0.9s ease 0s normal forwards 1 fadein;
+    animation: 0.9s ease 0s normal forwards 1 fadein;
+}
+@keyframes fadein{
+    0% { opacity:0; }
+    37.5% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    37.5% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.fade4 {
+    -webkit-animation: 1.2s ease 0s normal forwards 1 fadein;
+    animation: 1.2s ease 0s normal forwards 1 fadein;
+}
+@keyframes fadein{
+    0% { opacity:0; }
+    40% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    40% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.fade5 {
+    -webkit-animation: 1.5s ease 0s normal forwards 1 fadein;
+    animation: 1.5s ease 0s normal forwards 1 fadein;
+}
+@keyframes fadein{
+    0% { opacity:0; }
+    41.6% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    41.6% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.fade6 {
+    -webkit-animation: 1.8s ease 0s normal forwards 1 fadein;
+    animation: 1.8s ease 0s normal forwards 1 fadein;
+}
+@keyframes fadein{
+    0% { opacity:0; }
+    42.9% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    42.9% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.fade7 {
+    -webkit-animation: 2.1s ease 0s normal forwards 1 fadein;
+    animation: 2.1s ease 0s normal forwards 1 fadein;
+}
+@keyframes fadein{
+    0% { opacity:0; }
+    43.75% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    43.75% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.fade8 {
+    -webkit-animation: 2.4s ease 0s normal forwards 1 fadein;
+    animation: 2.4s ease 0s normal forwards 1 fadein;
+}
+@keyframes fadein{
+    0% { opacity:0; }
+    44.4% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    44.4% { opacity:0; }
+    100% { opacity:1; }
+}
+
+#h1 {
+  text-align: center;
+  font-size: 7em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  padding-top:200px;
+  padding-bottom:10%;
+}
+
+#h2 {
+  text-align: center;
+  font-size: 6.3em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  padding-top:200px;
+  padding-bottom:10%;
+}
+
+.arrow {
+  width:7em;
+  display: block;
+  margin: 0 auto;
+}
+
+#block100 {
+  height: 150%;
+  width: 100%;
+  background-color:rgb(255,210,210);
+}
+
+#block200 {
+  height: 100%;
+  width: 100%;
+  background-color:rgb(255,180,180);
+}
+
+#block300 {
+  height: 100%;
+  width: 100%;
+  background-color:rgb(255,150,150);
+}
+
+#block400 {
+  height: 100%;
+  width: 100%;
+  background-color:rgb(255,120,120);
+  color:white;
+}
+
+#block500 {
+  height: 100%;
+  width: 100%;
+  background-color:rgb(255,90,90);
+  color:white;
+}
+
+#block600 {
+  height: 100%;
+  width: 100%;
+  background-color:rgb(255,60,60);
+  color:white;
+}
+
+#block700 {
+  height: 100%;
+  width: 100%;
+  background-color:rgb(255,30,30);
+  color:white;
+}
+
+#footer {
+  height: 500px;
+  width: 100%;
+  background-color:rgb(255,210,210);
+  color:black;
+}
+
+p.section {
+  font-family: 'Raleway', sans-serif;
+  font-size:1.25em;
+  padding-top:40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+p.section2 {
+  font-family: 'Raleway', sans-serif;
+  font-size:1em;
+  padding-left:40px;
+  padding-right: 40px;
+}
+
+.footer {
+  font-family: 'Raleway', sans-serif;
+  font-size:1.5em;
+  padding-top:40px;
+  padding-left: 40px;
+  text-decoration: none!important;
+  color:black;
+}
+
+p.footer2 {
+  font-family: 'Raleway', sans-serif;
+  font-size:1em;
+  padding-top:40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none!important;
+}
+
+p.footer3 {
+  font-family: 'Raleway', sans-serif;
+  font-size:1.5em;
+  padding-top:40px;
+  padding-right:40px;
+  padding-left:40px;
+  text-decoration: none!important;
+}
+
+p.footer4 {
+  font-family: 'Raleway', sans-serif;
+  font-size:0.8em;
+  padding-top:1px;
+  padding-right:40px;
+  padding-left:40px;
+  text-decoration: none!important;
+}
+
+.socialmedia {
+  width:40px;
+  padding-left:40px;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+.contactus {
+  color:black;
+}
